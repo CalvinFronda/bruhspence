@@ -1,7 +1,7 @@
 "use client";
 import { createClient } from "@/utils/supabase/client";
 
-export default function Googlebutton({ signIn }) {
+const Googlebutton = ({ signIn }) => {
   const signInWithGoogle = async () => {
     const supabase = await createClient();
     const { data, error } = await supabase.auth.signInWithOAuth({
@@ -53,4 +53,6 @@ export default function Googlebutton({ signIn }) {
       </div>
     </button>
   );
-}
+};
+
+export default Googlebutton;
