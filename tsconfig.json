@@ -28,7 +28,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "app/(auth-pages)/SignInWithGoogle.js"
+    "app/(auth-pages)/SignInWithGoogle.tsx"
   ],
   "exclude": ["node_modules"]
 }

@@ -1,7 +1,7 @@
 "use client";
 import { createClient } from "@/utils/supabase/client";
 
-const Googlebutton = ({ signIn }) => {
+const Googlebutton = ({ signIn }: { signIn?: boolean }) => {
   const signInWithGoogle = async () => {
     const supabase = await createClient();
     const { data, error } = await supabase.auth.signInWithOAuth({
