@@ -4,7 +4,7 @@ import { SubmitButton } from "@/components/submit-button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Link from "next/link";
-import { SmtpMessage } from "../smtp-message";
+import Googlebutton from "../SignInWithGoogle";
 
 export default async function Signup(props: {
   searchParams: Promise<Message>;
@@ -43,9 +43,9 @@ export default async function Signup(props: {
             Sign up
           </SubmitButton>
           <FormMessage message={searchParams} />
+          <Googlebutton />
         </div>
       </form>
-      <SmtpMessage />
     </>
   );
 }
