@@ -52,9 +52,9 @@ export default function RootLayout({
               <footer className="w-full flex items-center justify-center border-t mx-auto text-center text-xs gap-8 py-8">
                 <p>Powered by the will to survive</p>
                 <ThemeSwitcher />
-              </footer>
-            </div>
-          </main>
+              </div>
+            </footer>
+          </div>
         </ThemeProvider>
       </body>
     </html>
