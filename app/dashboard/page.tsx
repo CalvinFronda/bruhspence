@@ -1,7 +1,6 @@
 import { createClient } from "@/utils/supabase/server";
-import { InfoIcon } from "lucide-react";
 import { redirect } from "next/navigation";
-import Layout from "./_layout";
+import Layout from "./layout";
 import { Button } from "@/components/ui/button";
 import {
   Card,
