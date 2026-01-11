@@ -1,3 +1,5 @@
+
+import LandingPage from "@/components/landing-page";
 import Link from "next/link";
 import HeaderAuth from "@/components/header-auth";
 export default async function Home() {
